@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # configs
-AUUID=5aaed9b7-7fe3-47c3-bb52-db59859ce198
-CADDYIndexPage=https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/archive/master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/test/test/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/test/test/master/etc/xray.json
+AUUID=1a908f38-29d2-46d7-a199-41c826980a3e
+CADDYIndexPage=https://www.vecteezy.com
+CONFIGCADDY=https://raw.githubusercontent.com/Dior-prog/railway-testone /master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/Dior-prog/railway-testone /master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
 
